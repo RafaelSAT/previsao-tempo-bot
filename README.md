@@ -1,9 +1,5 @@
-<h1>ATENÇÃO</h1>
+<h1>ATUALIZAÇÃO - 11/07/2024</h1>
 
-Caso queira fazer o teste e enviar para o seu e-mail, alterar a linha 94 "mail['To'] = ENDERECO_EMAIL", onde ENDERECO_EMAIL colocar seu e-mail.
-
-O bot está programado para verificar a previsão do tempo e fazer o envio de e-mail a cada 3 minutos,
-caso queira alterar o tempo, é só alterar a linha 105.
-
-Caso queira mudar a busca da cidade, é só alterar o parâmetro da função na linha 38, mudar o primeiro parâmetro
-que estará "Uberlândia" para a cidade de sua preferência.
+Adicionado input's para que a pessoa possa informar pelo prompt, a cidade para pesquisar a previsão do tempo e para informar o e-mail para receber estas informações
+Adicionado comando print para informar a pessoa sobre o andamento do script
+Alterado a mensagem de e-mail enviado, antes era um texto puro, agora é HTML
